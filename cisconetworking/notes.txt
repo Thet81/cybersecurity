@@ -1,0 +1,28 @@
+Communication Principles
+
+- Communication Protocols 	Describe network communication protocols.
+- Communication Standards 	Describe network communication standards.
+- Network Communication models 	Compare the OSI and TCP/IP models.
+
+Communication Protocols
+ Communication in our daily lives takes many forms and occurs in many environments. We have different 
+expectations depending on whether we are chatting via the internet or participating in a job interview.
+Each situation has its corresponding expected behaviors and styles.
+
+ Before beginning to communicate with each other, we establish rules or aggrements to govern the
+converstions. These aggrements include the following.
+
+ * What method of communication should we use?
+ * What language should we use?
+ * Do we need to confirm that our messages are received?
+
+
+
+
+
+
+
+
+
+
+

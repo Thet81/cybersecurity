@@ -1,0 +1,48 @@
+Data Accessing Methods
+
+Processors have a number of different ways of accessing data, known as addressing modes.
+
+Immediate Mode
+The simplest mode is immediate mode, in which data to access is embedded in the instruction itself.
+For example, if we wwant to initialize a register to 0, instead of giving the computer an address to read the 0 from, we would specify immediate mode, and give it the number 0.
+
+Register Addressing Mode
+In the register addressing mode, the instruction contains a register to access, rather than a memory location.
+
+Direct Addressing Mode
+In the directt addressing mode, the instruction contains the memeory address to access. For example, we could say, please load this register with the data at address 2002. The computer would go directly to byte number 2002 and copy the contents into our register.
+
+Indexed Addressing Mode
+In the indexed addressing mode, the instruction contains a memory address to access, and also specifies an index
+register to offset that address. 
+For example, we could specify addres 2002 and an index register.If the index register contains the number 4,
+the actual address the data is loaded from would be 2006.
+
+Indirect Addressing Mode
+In the indirect addressing mode, the instruction contains a register that contains a pointer to where the
+data should be accessed.
+For example, if we used indirect addressing mode and specified the %eax register, and the %eax register
+contained the value 4, whatever value was at memory location 4 would be used.
+In direct addressing, we would just load the value 4, but in indirect addressing, we use 4 as the
+address to use to find the data we want.
+
+Base Pointer Addrssing Mode
+This is similar to indirect addressing, but you also include a number called the offset to add to the register's value before using it for lookup.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

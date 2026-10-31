@@ -1,0 +1,4 @@
+this is some file with a lot of text to test reading files with assembly language
+first of all, we need to use registers to maniputate data and store data there first because it acts as
+cache for cup that stores data
+some file

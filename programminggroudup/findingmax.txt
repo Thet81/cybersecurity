@@ -1,0 +1,41 @@
+Find the maximum of a list of numbers
+
+These details include :
+Where will the original list of numbers be stored?
+What procedure will we need to follow to find the maximum number?
+How much storage do we need to carry out that procedure?
+Will all of the storae fit into registers, or do we need to use some memory as well?
+
+Planning
+Name the address whre thes list of numbers starts as data _items.
+The last number in the list will be zero
+A value to hold the current position in the list
+A value to hold the current list element being examined
+The current highest value on the list
+
+%edi will hold the current position in the list
+%ebx will hold the current highest value in the list
+%eax eill hold the current element being examined.
+
+1. Check the curremnt list element (%eax) to see if it's zero ( the terminating element)
+2. If it is zero, exit.
+3. Increase the current position (%edi)
+4. Load the next value in the list onto the current value register(%eax). What addrressing mode might we use here?
+5. Compare the current value (%eax) with the current highest value (%ebx).
+6. If the current value is greater than the current  highest value, replace the current highest value with the current value.
+7. Repeat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
