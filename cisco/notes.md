@@ -10,3 +10,14 @@ The format and contents fo a frame are determined by the type of message being s
 ### IP
 Internet Protocol (IP) is responsible for sending a message from the message source to destination over one or more networks.
 
+## The Access Layer
+- Ethernet switches make their forwarding decision based on destination MAC address.
+- Ethernet switches add entries to their MAC address table based on the source MAC address.
+- When a switch receives a ethernet frame the destination MAC address of that frame is not in its 
+  MAC address table, the switch will forward the frame out all ports except in the incoming port.
+
+## The Internet Protocol
+- A host needs an IPV4 address to participate on the internet and almost all LANs today.
+- Every packet sent across the internet has a source and destination IPV4 address. This information is required by networking devices to ensure the information gets to the destination and any replies are returned to the source.
+
+
