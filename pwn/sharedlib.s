@@ -1,6 +1,12 @@
 .intel_syntax noprefix
 .global solve
+.global _start
 
+_start:
+    mov rsi,0x12345
+    mov rdi,5
+    call solve
+    
 solve:
     # --- 1. Prepare standard sys_write(1, flag_buffer, length) ---
     # The harness passed: rdi = flag_buffer, rsi = length
